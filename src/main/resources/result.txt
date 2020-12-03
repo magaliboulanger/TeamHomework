@@ -1,0 +1,1 @@
+The number of non-repeated words in the file is: 12, and the number of occurrences of each word: {hi=4, how=1, today?=1, are=1, fine=1, goodbye=1, today=1, I=1, hello=2, magali=2, am=1, you=1}
