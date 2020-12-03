@@ -24,8 +24,6 @@ import com.solvd.university.model.Address;
 import com.solvd.university.model.Book;
 import com.solvd.university.model.Library;
 
-import jdk.internal.org.jline.utils.Log;
-
 public class LibraryParser {
 
 	private static Logger log = LogManager.getLogger(LibraryParser.class);
@@ -115,7 +113,7 @@ public class LibraryParser {
 			}
 
 		} catch (FileNotFoundException|XMLStreamException e) {
-			Log.error(e);
+			log.error(e);
 		}
 		return libs; 
 	}
