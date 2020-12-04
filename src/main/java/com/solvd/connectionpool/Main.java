@@ -31,7 +31,6 @@ public class Main {
 		try {
 			ex.awaitTermination(10, TimeUnit.SECONDS);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			l.error(e);
 		}
 	}
