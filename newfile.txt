@@ -1,4 +1,4 @@
 commit 1
-commit 2
+commit 2 I'm changing this line after commiting on branch_to_rebase
 
 
